@@ -1,0 +1,13 @@
+Commands used in devcloud:
+
+#to compile
+icpx -fopenmp -g matmul.cpp -o task3
+
+#to open a node with enough resources
+qsub -I
+
+#for the analysis
+advisor --collect=roofline --project-dir=./advi_results -- ./task3
+
+#for the snapshot
+advisor --snapshot --pack --cache-sources --cache-binaries --project-dir=./advi_results -- ./snapshot-devcloud

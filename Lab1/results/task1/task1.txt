@@ -1,0 +1,16 @@
+u204155@login-2:~$ g++ -g -fopenmp matmul.cpp
+
+u204155@login-2:~$ ./a.out
+04 October 2023 10:42:11 AM
+
+MATMUL:
+  C = A * B.
+  Order N                 = 300
+  Elapsed seconds = 0.115332
+  C(100,100)  = 1
+
+Matmul:
+  Normal end of execution.
+
+04 October 2023 10:42:11 AM
+
