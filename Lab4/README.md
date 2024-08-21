@@ -10,5 +10,3 @@ This lab is broken into various tasks, and for each of them, the student should 
 2. Tarea 2 - **Threading Analysis**: In this task, a threading analysis will be conducted, and general questions about the results will be addressed. [Link](results/task2/README.md)
 
 3. Tarea 3 - **Code Parallelization with OpenMP**: Based on the analysis information, the code will be parallelized using OpenMP. [Link](results/task3/README.md)
-
-
